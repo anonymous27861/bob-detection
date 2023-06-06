@@ -50,7 +50,7 @@ Please refer to [Get Started](https://github.com/anonymous27861/bob-detection/bl
 
 ## Usage
 
-The config files for all experiments in <strong>Battle of the Backbones (BoB)</strong> can be found [configs/bob]().
+The config files for all experiments in <strong>Battle of the Backbones (BoB)</strong> can be found [configs/bob](https://github.com/anonymous27861/bob-detection/tree/main/configs/bob).
 
 To train a detector with the existing configs, run:
 
