@@ -1,6 +1,6 @@
 # BoB-Detection
 
-This repository is the official implementation of <strong>Object Detection and Segmentation</strong> task in the [*Battle of the Backbones: A Large-Scale Comparison of Pretrained Models across Computer Vision Tasks*](https://github.com/anonymous27861/Battle-of-the-Backbones).
+This repository is the official implementation of <strong>Object Detection and Instance Segmentation</strong> task in the [*Battle of the Backbones: A Large-Scale Comparison of Pretrained Models across Computer Vision Tasks*](https://github.com/anonymous27861/Battle-of-the-Backbones).
 
 :pushpin: Our implementation and instructions are based on [mmdetection](https://github.com/open-mmlab/mmdetection)
 
