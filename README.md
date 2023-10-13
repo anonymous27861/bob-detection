@@ -18,7 +18,7 @@ conda activate openmmlab
 On GPU platforms:
 
 ```shell
-conda install pytorch torchvision -c pytorch
+conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.6 -c pytorch -c nvidia
 ```
 
 **Step 3.** Install [MMCV](https://github.com/open-mmlab/mmcv) using [MIM](https://github.com/open-mmlab/mim).
