@@ -77,9 +77,15 @@ def main():
             'annotations_trainval2017.zip'
         ],
         lvis=[
-            'https://s3-us-west-2.amazonaws.com/dl.fbaipublicfiles.com/LVIS/lvis_v1_train.json.zip',  # noqa
-            'https://s3-us-west-2.amazonaws.com/dl.fbaipublicfiles.com/LVIS/lvis_v1_train.json.zip',  # noqa
+            'https://dl.fbaipublicfiles.com/LVIS/lvis_v1_val.json.zip',  # noqa
+            'https://dl.fbaipublicfiles.com/LVIS/lvis_v1_train.json.zip',  # noqa
+            'http://images.cocodataset.org/zips/train2017.zip',
+            'http://images.cocodataset.org/zips/val2017.zip',
         ],
+        # lvis=[
+        #     'https://s3-us-west-2.amazonaws.com/dl.fbaipublicfiles.com/LVIS/lvis_v1_train.json.zip',  # noqa
+        #     'https://s3-us-west-2.amazonaws.com/dl.fbaipublicfiles.com/LVIS/lvis_v1_train.json.zip',  # noqa
+        # ],
         voc2007=[
             'http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar',  # noqa
             'http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar',  # noqa
