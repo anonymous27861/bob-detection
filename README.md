@@ -39,12 +39,22 @@ pip install -v -e .
 # thus any local modifications made to the code will take effect without reinstallation.
 ```
 
-**Step 5.** Download COCO and unzip dataset (you can optionally delete downloaded zip files by passing '--delete').
+**Step 5.** Download COCO (LVIS) and unzip dataset (you can optionally delete downloaded zip files by passing '--delete').
+
+COCO download:
 
 ```shell
 python tools/misc/download_dataset.py --dataset-name coco2017 --unzip
 ```
+LVIS download:
 
+```shell
+python tools/misc/download_dataset.py --dataset-name lvis --save-dir data/lvis_v1/ --unzip
+cd data/lvis_v1/
+mkdir annotations
+mv lvis_v1_train.json annotations/
+mv lvis_v1_val.json annotations/
+```
 
 Please refer to [Get Started](https://github.com/anonymous27861/bob-detection/blob/main/docs/en/get_started.md), [Dataset Prepare](https://mmdetection.readthedocs.io/en/latest/user_guides/dataset_prepare.html?highlight=dataset), and [Dataset Download](https://mmdetection.readthedocs.io/en/latest/user_guides/useful_tools.html#dataset-download) for more detailed instructions.
 
